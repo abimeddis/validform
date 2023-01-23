@@ -140,7 +140,6 @@ const showError = (input, msj) => {
   error.innerText = msj;
   error.classList.remove("aproved");
   error.classList.add("error");
-  console.log(error);
 };
 
 // MOSTRAR APROBADO

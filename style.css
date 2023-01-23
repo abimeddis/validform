@@ -20,6 +20,10 @@
   font-size: 2rem;
   color: black;
   padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .input-container {
@@ -41,24 +45,23 @@
   border-radius: 15px 50px 30px;
   text-align: center;
 }
-.input-container.error input {
-  border: 1px solid #dc3545;
-}
-
-.input-container.aproved input {
-  border: 1px solid #28a745;
-}
 
 .aproved {
   color: #1f8d24;
   font: 1rem;
+  font-weight: 400;
 }
 
 .error {
   color: #880808;
+  font-weight: 400;
   font-size: 1rem;
 }
 
 .footer {
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
