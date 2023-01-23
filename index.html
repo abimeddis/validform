@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>VALID FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Unna&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <h1 class="title">VALIDACIÓN DE FORMULARIOS</h1>
+
+    <form class="validation-container" id="form">
+      <div class="input-container">
+        <label>Ingrese su nombre:</label>
+        <span></span>
+        <input
+          type="text"
+          placeholder="Coloque su nombre aquí."
+          class="input-form"
+          id="input-name"
+          name="Nombre"
+        />
+      </div>
+
+      <div class="input-container">
+        <label>Ingrese su apellido:</label>
+        <span></span>
+        <input
+          type="text"
+          placeholder="Coloque su apellido aquí."
+          class="input-form"
+          id="input-surname"
+          name="Apellido"
+        />
+      </div>
+
+      <div class="input-container">
+        <label>Ingrese su email:</label>
+        <span></span>
+        <input
+          type="email"
+          placeholder="Ingrese su email aquí."
+          class="input-form"
+          id="input-email"
+          name="Email"
+        />
+      </div>
+
+      <div class="input-container">
+        <label>Ingrese su teléfono:</label>
+        <span></span>
+        <input
+          type="phone"
+          placeholder="Ingrese su telefono aquí."
+          class="input-form"
+          id="input-phone"
+          name="Teléfono"
+        />
+      </div>
+
+      <div class="input-container">
+        <label>Cree una contraseña:</label>
+        <span></span>
+        <input
+          type="password"
+          placeholder="Ingrese su contraseña aquí."
+          class="input-form"
+          id="input-password"
+          name="Contraseña"
+        />
+      </div>
+
+      <div class="input-container">
+        <input type="submit" class="button-form" value="Validar Formulario" />
+      </div>
+    </form>
+
+    <footer>
+      <p class="footer">Copyright © 2023 Desarrollado por HÜRREM COMPANY</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
